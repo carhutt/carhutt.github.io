@@ -26,3 +26,7 @@ footer {
 footer a:link, footer a:visited {
     color: #857e78;
 }
+
+.social {
+    text-align: center;
+}
