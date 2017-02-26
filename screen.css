@@ -23,6 +23,6 @@ footer {
     color: #a79e97;
 }
 
-#footer a {
+footer a:link, footer a:visited {
     color: #857e78;
 }
