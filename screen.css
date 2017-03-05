@@ -1,5 +1,5 @@
 /* MY CSS */
-body {
+div.content {
     margin: 40px auto;
     max-width: 650px;
     line-height: 1.6;
@@ -10,10 +10,33 @@ body {
     background-color: #fefefe;
 }
 
+header, .full-width {
+  width: 100%;
+  background: #ccc;
+  font-family: 'Lucida Grande', Arial, sans-serif;
+  padding-top: 0.125em;
+  padding-bottom: 0.125em;
+}
+
 h1,
 h2,
 h3 {
     line-height: 1.2
+}
+
+h4 {
+    color: #857e78;
+    font-size: 12px;
+}
+
+img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border: 2px solid #d9d9d9;
+    max-width: 400px;
+    max-height: 450px;
 }
 
 footer {
@@ -23,7 +46,11 @@ footer {
     color: #a79e97;
 }
 
-footer a:link, footer a:visited {
+.no-bullets {
+    list-style-type: none;
+}
+
+a:link, a:visited {
     color: #857e78;
 }
 
