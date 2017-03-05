@@ -10,6 +10,12 @@ div.content {
     background-color: #fefefe;
 }
 
+@media (max-width: 410px) {
+    img {
+        max-width: 95%;
+    }
+}
+
 header, .full-width {
   width: 100%;
   font-family: 'Lucida Grande', Arial, sans-serif;
