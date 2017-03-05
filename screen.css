@@ -10,7 +10,7 @@ div.content {
     background-color: #fefefe;
 }
 
-@media (max-width: 410px) {
+@media (max-width: 450px), handheld {
     img.centered {
         max-width: 95%;
     }
