@@ -11,7 +11,7 @@ div.content {
 }
 
 @media (max-width: 410px) {
-    img {
+    img.centered {
         max-width: 95%;
     }
 }
