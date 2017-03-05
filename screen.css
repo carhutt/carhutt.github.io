@@ -1,6 +1,6 @@
 /* MY CSS */
 div.content {
-    margin: 40px auto;
+    margin: 20px auto;
     max-width: 650px;
     line-height: 1.6;
     font-size: 18px;
@@ -12,10 +12,16 @@ div.content {
 
 header, .full-width {
   width: 100%;
-  background: #ccc;
   font-family: 'Lucida Grande', Arial, sans-serif;
-  padding-top: 0.125em;
+  color: #857e78;
   padding-bottom: 0.125em;
+}
+
+header a {
+  text-decoration: none;
+}
+header a:hover {
+    text-decoration: underline;
 }
 
 h1,
