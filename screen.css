@@ -17,14 +17,14 @@ div.content {
 }
 
 header, .full-width {
-  width: 100%;
-  font-family: 'Lucida Grande', Arial, sans-serif;
-  color: #857e78;
-  padding-bottom: 0.125em;
+    width: 100%;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+    color: #857e78;
+    padding-bottom: 0.125em;
 }
 
 header a {
-  text-decoration: none;
+    text-decoration: none;
 }
 header a:hover {
     text-decoration: underline;
@@ -52,8 +52,8 @@ img.centered {
     margin-right: auto;
     margin-top: 30px;
     border: 2px solid #d9d9d9;
-    max-width: 400px;
-    max-height: 450px;
+    max-width: 600px;
+    max-height: 650px;
 }
 
 footer {
