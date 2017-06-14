@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2017-06-13T21:01:01-05:00</updated><id>http://localhost:4000/blog/</id><title type="html">Andrew’s Blog</title><subtitle>A collection of writings.
+</subtitle><entry><title type="html">On Neuralink</title><link href="http://localhost:4000/blog/on-neuralink.html" rel="alternate" type="text/html" title="On Neuralink" /><published>2017-06-13T05:00:00-05:00</published><updated>2017-06-13T05:00:00-05:00</updated><id>http://localhost:4000/blog/on-neuralink</id><content type="html" xml:base="http://localhost:4000/blog/on-neuralink.html">&lt;p&gt;I have some thoughts about this article on Wait But Why, &lt;a href=&quot;http://waitbutwhy.com/2017/04/neuralink.html&quot;&gt;“Neuralink and the Brain’s Magical Future”&lt;/a&gt;.  This blog post is about 3,000 words, compared to the original article’s 36,000 words.  I’ll try to make this readable for people who haven’t read the original article, but it will probably make more sense if you take a look at the &lt;a href=&quot;http://waitbutwhy.com/2017/04/neuralink.html&quot;&gt;original article&lt;/a&gt;.  Also, I like to let people know what they’re getting into up front, so I’ll let you know right now: this is mostly about how Tim Urban, the author of the original article, doesn’t know what he’s on about.&lt;/p&gt;
+
+&lt;h2 id=&quot;things-i-liked&quot;&gt;Things I liked&lt;/h2&gt;
+&lt;p&gt;I have a lot of respect for the work that Tim Urban put into writing the scientific bits of this post, and I learned a lot of interesting factoids about brain-machine interfaces and the current state of neurotechnology.&lt;/p&gt;
+
+&lt;p&gt;Also, there was this one bit that I think is genuinely insightful:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…the progress of science, business, and industry are all at the whim of the progress of engineering.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This strikes me as basically true (although it begs the question of which whims dictate the progress of engineering).&lt;/p&gt;
+
+&lt;h2 id=&quot;problematic-things-eg-everything-else&quot;&gt;Problematic things (e.g. everything else)&lt;/h2&gt;
+
+&lt;h3 id=&quot;this-is-really-just-that&quot;&gt;“This is &lt;em&gt;really just&lt;/em&gt; that”&lt;/h3&gt;
+
+&lt;p&gt;Here are some quotes from the Neuralink article:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Research scientist Paul Merolla described it to me: …“you just see a cup—but what your eyes are seeing is really just a bunch of pixels.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;But this is what we all are. You look in the mirror and see your body and your face and you think that’s you—but that’s really just the machine you’re riding in. What you actually are is a zany-looking ball of jello.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The you you think of when you think of yourself—it’s really mainly your cortex. Which means you’re actually a napkin.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…at the most literal level, Elon’s right about people being computers. At its simplest definition, a computer is an object that can store and process data—which the brain certainly is. 
+(&lt;a href=&quot;http://waitbutwhy.com/2015/11/the-cook-and-the-chef-musks-secret-sauce.html&quot;&gt;Source&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A word is simply an approximation of a thought—buckets that a whole category of similar-but-distinct thoughts can all be shoved into.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;That’s what language is—your brain has executed a compression algorithm on thought, on concept transfer.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Every one of these sentences is an intellectually lazy garbage pile.  Violent impulses are not my normal response to people being wrong in public, but they are in this case, for a couple of reasons.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The &lt;a href=&quot;https://en.wikipedia.org/wiki/Bullshit#Bullshit_asymmetry_principle&quot;&gt;bullshit asymmetry principle&lt;/a&gt; says that “the amount of energy needed to refute bullshit is an order of magnitude bigger than to produce it”, which means that to properly explain why the quotes above are &lt;em&gt;so wrong&lt;/em&gt; would require ten times the amount of work Tim Urban put into his article, and he was probably getting paid for it.  I’m going to give it a shot, though.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://text-patterns.thenewatlantis.com/2017/02/from-disneyism-to-onlyism.html&quot;&gt;“Onlyism”&lt;/a&gt; drives me nuts because it’s the first step toward thinking of yourself as a robot and seeing people as meatsacks.  Reductionist definitions of personhood and language, even if presented flippantly, are spiritual poison.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;other-deceptive-rhetoric&quot;&gt;Other deceptive rhetoric&lt;/h3&gt;
+
+&lt;p&gt;Let’s talk about the “Die Progress Unit” and Tim Urban’s goofy idea that technological change is shocking and unhealthy.  I can’t tell if Tim Urban is trying to make some kind of joke when he claims that hypothetically a person could “go into the future [so far] that the ensuing shock from the level of progress would kill you”, but he makes some pretty serious claims based on the Die Progress Unit.  He claims that “our future will be unfathomably shocking to us”, apparently so shocking that it would &lt;em&gt;literally kill us&lt;/em&gt;.  This is just bald assertion, without even an attempt at proof.&lt;/p&gt;
+
+&lt;p&gt;Let me share an anecdote.&lt;/p&gt;
+
+&lt;p&gt;When I was in college I dated a girl who worked on the movie &lt;a href=&quot;https://en.wikipedia.org/wiki/End_of_the_Spear&quot;&gt;&lt;em&gt;End of the Spear&lt;/em&gt;&lt;/a&gt;, about five American missionaries who were killed by members of the Waodani tribe in the jungles of Ecuador.  There’s a lesser-known sequel to &lt;em&gt;End of the Spear&lt;/em&gt;, called &lt;a href=&quot;http://thegrandfathers.com/&quot;&gt;&lt;em&gt;The Grandfathers&lt;/em&gt;&lt;/a&gt;.  It’s about a warm relationship that forms between (a) a grandson of one of the missionaries and (b) Mincaye, one of the tribe members who killed his grandfather.  I bring it up because it helps show how absurd Tim Urban’s blather about the Die Progress Unit and the shock of new technology really is.&lt;/p&gt;
+
+&lt;p&gt;Mincaye, the member of the Waodani tribe, flies in an airplane and spends some time in the suburbs in the United States.  Mincaye moved from a stone age tribe to the early 2000s in a day.  He had a lot farther to come than George Washington, and he did just fine.  Didn’t die even a little bit.  He’s pretty unfazed, and mostly finds the ways people use technology &lt;em&gt;funny&lt;/em&gt;.  For example, he thinks it’s hilarious that you can go to a big building full of food and take whatever you want home with you if you just show a man a piece of plastic.  And, well, yeah, it is pretty funny.&lt;/p&gt;
+
+&lt;p&gt;Would Mincaye have trouble adapting completely to life in the suburbs?  Probably.  But according to Tim Urban, he was supposed to die of shock, several times over.  Or did he see that life in the suburbs—and remember, it was like going forward 2,000 years in a time machine for him—as the end of a “very intense road” leading to a “very intense place”?  No.  He saw it as just a bunch of people, doing more or less the things that people do, with some really weird hilarious behaviors that only sort of made sense.  And I think that’s probably where we’re actually heading, although I’m open to the possibility that I might be wrong about that.&lt;/p&gt;
+
+&lt;p&gt;Tim Urban obviously thinks that the technologies we have in 2017 were also unimaginable at some point—“Remember—George Washington died when he saw 2017”—but there’s no good reason to think so.  In fact, there are good reasons to &lt;em&gt;not&lt;/em&gt; think so.&lt;/p&gt;
+
+&lt;p&gt;At this point in this blog post I come to a fork in the road, because there are two places I want to go from here.  We’ll just do one and then backtrack and take the other fork, okay?&lt;/p&gt;
+
+&lt;h4 id=&quot;measurement&quot;&gt;Measurement&lt;/h4&gt;
+
+&lt;p&gt;The first fork in the road leads to a brief discussion about &lt;em&gt;measurement&lt;/em&gt;.  As we all learned in grade school, accurate and precise measurement is an essential part of science, or, to put it another way, if you can’t measure shit then you can’t do shit.  Tim Urban uses a sham version of measurement to create the illusion of responsible scientific objectivity, but if you think about some of what he says even a little bit it falls apart.  (The exception to this is when it seems that someone is doing the measurement for him, as in his discussion of how big and complex human brains are.)  &lt;strong&gt;Exhibit A&lt;/strong&gt;: the “Die Progress Unit, or DPU”, which is supposed to be “how many years one would need to go into the future such that the ensuing shock from the level of progress would kill you”, as discussed above.  It’s nonsense, obviously, because (a) you &lt;em&gt;can’t measure that&lt;/em&gt;, and (b) it almost definitely isn’t even a real thing.&lt;/p&gt;
+
+&lt;p&gt;Here’s another example of Tim Urban doing his rhetorical trick of “look at me measure something!  Now believe me!”  Look at this chart:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://28oa9i1t08037ue3m1l0i861.wpengine.netdna-cdn.com/wp-content/uploads/2018/04/Communication-Speed-GRAPH-1-768x574.png&quot; alt=&quot;bandwidth&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This chart looks like it makes sense, at least at first.  We can measure how fast we can type, we can measure how many words we usually say per minute, we can measure how fast we can read, and we can compare those things.  So far, so good.  Where things start to get a bit goofy is in the orange and red bars.  I’ll explain why.&lt;/p&gt;
+
+&lt;p&gt;The orange bar is supposed to be about thinking.  Rhetorically, it’s supposed to support the point that we can often think of words to say faster than we can articulate or type them, which is true.&lt;/p&gt;
+
+&lt;p&gt;The problem with the orange bar is that we don’t actually understand what “thinking” is, but we can be fairly sure it’s not just the same thing as “thinking of words to type or say”.  Thinking partakes in all kind of non-verbal symbolic and subterranean mental activity.  We can think in numbers, images, melodies, and things we only know to call feelings or intuitions.  It’s plain silly to compare &lt;em&gt;thinking&lt;/em&gt; to speaking, reading, or typing for the purposes of measuring and comparing them.&lt;/p&gt;
+
+&lt;p&gt;The red bar is (as far as I can tell) supposed to reference the speed at which digital information can be transmitted, which would be mind-bogglingly fast compared to the other things on the chart, if you could compare them.  The wifi in my apartment can download something like five megabytes per second if the servers on the other end are being nice, and the plain text version of &lt;a href=&quot;http://www.gutenberg.org/files/2701/2701-0.txt&quot;&gt;&lt;em&gt;Moby Dick&lt;/em&gt;&lt;/a&gt; on Project Gutenberg is only 1.2 megabytes, which means that with my cheap residential internet plan I could download five &lt;em&gt;Moby Dick&lt;/em&gt;s per second.&lt;/p&gt;
+
+&lt;p&gt;What’s the problem with the red bar?  My first impulse is to say that the problem is that &lt;em&gt;Moby Dick&lt;/em&gt; expressed as a string of bytes is not the same thing as &lt;em&gt;Moby Dick&lt;/em&gt; experienced by a reader.  But I don’t think that’s quite sufficient as an explanation here.  Let’s try this: the word &lt;em&gt;communication&lt;/em&gt; means something different when applied to zeroes and ones than it does when applied to human language.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-even-is-information--what-even-is-communication&quot;&gt;What even is information?  What even is communication?&lt;/h4&gt;
+
+&lt;p&gt;Paul Duguid, a professor at UC Berkeley, wrote a paper called &lt;a href=&quot;http://courses.ischool.berkeley.edu/i218/s15/Ageing.3.2.pdf&quot;&gt;“The Ageing of Information: From Particular to Particulate”&lt;/a&gt;.  One thing he does in this paper is take us back through the history of the idea of &lt;em&gt;information&lt;/em&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;. . .in the latter part of [the 18th] century an Anglican divine and essayist, Vicesimus Knox (1752–1821), declared his to be the “age of information.”  How should we read this prior appropriation of the phrase?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Duguid argues that in the 18th century people’s ideas about information shifted “from youthful enthusiasm to aged suspicion and circumspection”, and that a similar thing has happened in the 20th century.  The “youthful enthusiasm” phase of ideas about information seems to have been a bit different the first time around, in the 18th century, though.  Duguid notes the surprising meanings that 18th-century writers gave the word:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In his “Epistle to the reader” of the &lt;em&gt;Essay Concerning Human Understanding&lt;/em&gt;, John Locke noted self-deprecatingly that the work was “not meant for those that had already Mastered the Subject . . . but for my own Information.” Here Locke . . . used information more as we might use &lt;em&gt;instruction, education, ratiocination,&lt;/em&gt; or even &lt;em&gt;enlightenment&lt;/em&gt;, as the process that leads to Locke’s central concern, a state of “understanding.” In a similar vein, Francis Bacon had earlier discussed how experiments “assist . . . the information of the understanding” and people often wrote of the “source,” “means,” “mode,” or “method” of information—all suggesting that, information was the mental response to a stimulus, rather than, as it would become, the stimulus itself.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;“Information” was closely tied to the verb “inform”, which seems to have meant something like “to form inwardly”.  This is completely different than the set of meanings we attach to “inform” and “information” now, so let’s look at the 20th-century version of “youthful enthusiasm” about information.&lt;/p&gt;
+
+&lt;p&gt;In the 1940s, as America was experiencing the full intoxication of having basically beat the whole world in a war and being able to dictate economic terms to everyone, an American named Vannevar Bush wrote an article called &lt;a href=&quot;https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/&quot;&gt;“As We May Think”&lt;/a&gt;.  This article was a futurist dream about a machine called the Memex, which would basically do most of what the internet does but using microfilm.  Duguid, in 2015, addresses Bush’s 1945 article, starting with Bush’s questionable idea of what “information” and “communication” are:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Bush suggested that information is somehow prior to language, which merely obfuscates human communication, and encouraged the design of a universal replacement more suitable for mechanization. (He, perhaps, needed cautioning by Paine, who responded to the similar enthusiasms of his century [the 18th] with the caution “Human language . . . is local . . . therefore incapable of being used as the means of unchangeable and universal information.”)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;To this enthusiasm, also compare the &lt;a href=&quot;https://en.wikipedia.org/wiki/Shannon%E2%80%93Weaver_model&quot;&gt;Shannon-Weaver model&lt;/a&gt;, another product of the post-war American universities:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.shkaminski.com/Classes/images/Shannon-Weaver%20Model.gif&quot; alt=&quot;s-w-img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a hugely influential model of communication across many academic disciplines, including computer science.  It even has a &lt;a href=&quot;https://en.wikipedia.org/wiki/Diversity_index&quot;&gt;formula&lt;/a&gt;.  The problem (and this is a problem that Claude Shannon himself, author of the model, recognized and tried to &lt;a href=&quot;https://monoskop.org/images/2/2f/Shannon_Claude_E_1956_The_Bandwagon.pdf&quot;&gt;fight against&lt;/a&gt;) is that people wanted to use this model &lt;em&gt;everywhere&lt;/em&gt;, when it’s really only applicable to machine-readable language in a communications engineering context.&lt;/p&gt;
+
+&lt;p&gt;(If you’re really into this stuff, the Stanford Encyclopedia of Philosophy has a great article titled &lt;a href=&quot;https://plato.stanford.edu/entries/information-semantic/#4.1&quot;&gt;Semantic Conceptions of Information&lt;/a&gt;.  Or, if you’re more into how weird language is (another topic I don’t have space for here), there’s a great book by Walker Percy called &lt;a href=&quot;http://agchildress.com/files/TheMessageintheBottleWalkerPercy.pdf&quot;&gt;&lt;em&gt;The Message In The Bottle: How Queer Man Is, How Queer Language Is, and What One Has to Do with the Other&lt;/em&gt;&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;p&gt;“Communication speed” means something totally different in a communications engineering context than in a speaking/writing/listening context.  And yeah, yeah, I know that the whole point of Tim Urban’s Neuralink article is that those different contexts are supposed to be collapsed into the same thing with the inevitable advent of the fully capable brain-machine interface.  But “this” is &lt;em&gt;not&lt;/em&gt; “just that”, as discussed above.  Promising without evidence that this collapse of human language into communciations engineering &lt;em&gt;will happen&lt;/em&gt; is not just wishful thinking; it’s either dishonest or stupid.&lt;/p&gt;
+
+&lt;p&gt;Conclusion: Tim Urban is not doing anything that even remotely resembles intellectually responsible thought, and he probably knows it.&lt;/p&gt;
+
+&lt;p&gt;(Also, let’s consider this: maybe low-bandwidth, lossy communication is a feature of the human condition, not a bug.  Maybe our ability to forget is a feature, not a bug.)&lt;/p&gt;
+
+&lt;p&gt;Now, rewind a bit, and remember how we were talking about the Waodani tribe and how people don’t actually die of shock when they move into the future?  There’s a bigger question here, a question about where we’ve been, as the human species, and where we’re going.  And this question of where we’ve been and where we’re going leads to that other fork in the road, and my next bone that I have to pick with Tim Urban:&lt;/p&gt;
+
+&lt;h3 id=&quot;psuedo-history&quot;&gt;Psuedo-history&lt;/h3&gt;
+
+&lt;p&gt;The not-even-wrong reductionist caricatures of language and human nature that Urban relies on are tied up in his history of technology and humanity, which is wrong in a more demonstrable and straight-forward way.&lt;/p&gt;
+
+&lt;p&gt;He starts with trying to explain how language came about.  This is unfortunate, because no one really knows how language came about.  It’s not just me saying that no one knows, either: Bill Bryson, in his book &lt;em&gt;The Mother Tongue: English And How It Got That Way&lt;/em&gt; writes&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We have not the faintest idea whether the first words spoken were uttered 20,000 years ago or 200,000 years ago.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And a couple of pages later:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;One of the greatest mysteries of prehistory is how people in widely separated places suddenly and spontaneously developed the capacity for langauge at roughly the same time.  It was as if people carried around in their heads a genetic alarm clock that suddenly went off all around the world and led different groups in widely scattered places on every continent to create languages.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Tim Urban, on the other hand, has it all figured out.  First there were monkeys, then the monkeys figured out how to yell nouns at one another, and then one fine day they had a fully developed language.  This just-so story that says “first apes shouted nouns, and then some magic happened, and now human language exists” is very problematic.  It’s like saying that one day an engineer discovered the &lt;a href=&quot;https://en.wikipedia.org/wiki/Czochralski_process&quot;&gt;Czochralski process&lt;/a&gt; and then one fine day everyone was using Google.  Urban doesn’t even admit that no one really has any idea about the “and then some magic happened” part of his story.  (On the other hand, we are capable of telling the story that goes from the Czochralski process to Google, even though it’s complicated.  And that history is the history of just a few decades, not millenia, like the untellable history of human language.)&lt;/p&gt;
+
+&lt;p&gt;So, Tim Urban’s history of language doesn’t make sense.  Know what else doesn’t make sense?  Tim Urban’s history of technology.  He claims that when people started writing down their knowledge and storing it in libraries this allowed technology to progress.  The problem with this story is that there just &lt;em&gt;aren’t&lt;/em&gt; any practical, technological things in Democritus or Lucretius, much less Heraclitus or Herodotus or the ancient Sumerian clay tablets.  And it’s not like there were other, less well-known authors who were writing a bunch of technical manuals in classical antiquity, either.  For whatever reason, people just didn’t write down things that had to do with technology until something like the 16th century.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The first treatise on metallurgy was written by an Italian, Vannoccio Biringuccio, but he gained his experience with lead and silver at the Fugger mines in Tyrol.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(&lt;a href=&quot;http://www.nybooks.com/articles/2017/06/08/martin-luthers-burning-questions/&quot;&gt;Source&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;That treatise on metallurgy, &lt;em&gt;De la pirotechnia&lt;/em&gt;, was published in 1540.  By that point people had been working with metal for millenia.  Technological knowledge was actually one of the last things to make it into books, which is kind of weird when you think about it.&lt;/p&gt;
+
+&lt;p&gt;(What did people use writing for during those millenia?  Accounting, myth, religion, and history, with some pure mathematics and philosophy to keep things interesting.  Also interesting, as a side note: the &lt;a href=&quot;https://en.wikipedia.org/wiki/Seikilos_epitaph&quot;&gt;first musical notation we know about&lt;/a&gt; came centuries after the &lt;a href=&quot;https://en.wikipedia.org/wiki/Music_theory#CITEREFMirelman2010&quot;&gt;first writings on music theory we know about&lt;/a&gt;.  To be clear, I think that this is weird and it would make more sense if people had written down practice before theory and technology before cosmology.  But they didn’t.)&lt;/p&gt;
+
+&lt;p&gt;Urban’s pseudo-history of technology is also conspicuously empty of any discussion of who wins and who loses when technological change comes rumbling across the horizon, or even any acknowledgement that technological change produces winners and losers.  I don’t want to take the space right now to dive into this idea, but two thinkers I have found insightful and helpful in thinking about technological change and social change are Audrey Watters and Ursula Franklin.  Ursula Franklin has a great series of lectures (which are also a book) called &lt;a href=&quot;http://www.cbc.ca/radio/ideas/the-1989-cbc-massey-lectures-the-real-world-of-technology-1.2946845&quot;&gt;“The Real World of Technology”&lt;/a&gt;, and Audrey Watters runs a research blog called &lt;a href=&quot;http://hackeducation.com/&quot;&gt;Hack Education&lt;/a&gt;.  &lt;a href=&quot;http://hackeducation.com/2017/05/24/new-normal&quot;&gt;From that blog&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If technology is the force for change, in this framework, those who do not use technology, of course – schools and teachers, stereotypically – are viewed as resistant to or even obstacles to change.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If technology is an unstoppable force and the only real force for change, then Tim Urban is basically right to be freaked out about the future.  But what if it’s not?  What if it’s neither unstoppable nor the only force for change in how we live?  As Marshall McLuhan put it in 1969,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It’s vital to adopt a posture of arrogant superiority; instead of scurrying into a corner and wailing about what media [technology] are doing to us, one should charge straight ahead and kick them in the electrodes. They respond beautifully to such resolute treatment and soon become servants rather than masters.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;philosophy-and-materialism&quot;&gt;Philosophy and materialism&lt;/h3&gt;
+
+&lt;p&gt;In general, I think that Tim Urban’s approach to &lt;a href=&quot;http://waitbutwhy.com/?s=philosophy&quot;&gt;philosophy&lt;/a&gt; is lamentable.  I don’t want to get too carried away with this, especially since I’m just some dude and he’s just some dude with a bigger blog, but browsing the posts on his blog linked in the previous sentence is…disappointing.  They aren’t philosophy, they’re weird squirming attempts to avoid the nutso metaphysical consequences of philosophical materialism.  (I believe the consequences of philosophical materialism consist mainly of despair, in case you were wondering.)  To put it another way, Tim Urban’s bloviation about philosophy and having a good life read to me like he’s doing his level best to be a normal friendly dude while what’s constantly spinning around in his head is this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://24.media.tumblr.com/tumblr_mdyd1cbIqU1rby04wo1_1280.gif&quot; alt=&quot;lol-nothing-matters&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;In conclusion, these have been my thoughts on “Neuralink and the Brain’s Magical Future”.  Since I don’t have a comment system built on this blog right now, please feel free to email me with any responses, rants, questions, or corrections.&lt;/p&gt;</content><author><name></name></author><summary type="html">I have some thoughts about this article on Wait But Why, “Neuralink and the Brain’s Magical Future”. This blog post is about 3,000 words, compared to the original article’s 36,000 words. I’ll try to make this readable for people who haven’t read the original article, but it will probably make more sense if you take a look at the original article. Also, I like to let people know what they’re getting into up front, so I’ll let you know right now: this is mostly about how Tim Urban, the author of the original article, doesn’t know what he’s on about.</summary></entry><entry><title type="html">Hello World!</title><link href="http://localhost:4000/blog/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Hello World!" /><published>2017-06-10T03:00:00-05:00</published><updated>2017-06-10T03:00:00-05:00</updated><id>http://localhost:4000/blog/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/welcome-to-jekyll.html">&lt;p&gt;This is a basic post in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory.  I set up this Jekyll blog more or less following the instructions at the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; and &lt;a href=&quot;http://jekyllbootstrap.com/usage/jekyll-quick-start.html&quot;&gt;Jekyll Boostrap&lt;/a&gt;, but am keeping it in a separate folder on my file system and manually pushing the _site directory into my website.  I use &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt; to preview posts before moving them.&lt;/p&gt;
+
+&lt;p&gt;New posts in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory follow the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.markdown&lt;/code&gt; and include the necessary front matter.&lt;/p&gt;
+
+&lt;p&gt;This is admittedly an awkward way to set up a blog, but it’s what I am doing for now, for several reasons:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I get to own the whole blog.  It’s hosted on GitHub pages, so I get the whole file system duplicated on my computer and my GitHub account.&lt;/li&gt;
+  &lt;li&gt;No databases.  It’s just a static site, which I like.  It makes it feel simpler.&lt;/li&gt;
+  &lt;li&gt;I like figuring out how to make it work.  Yeah, I could just spin up a WordPress or Squarespace site, but I’m more motivated to work on my website when I get to write all the code and understand how everything works.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In the future I would like to simplify some of the crazy things I’m doing to integrate it.  Right now I have a &lt;code class=&quot;highlighter-rouge&quot;&gt;/blog&lt;/code&gt; folder set up in my GitHub repo and I just manually copy over all the posts and the &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; file into that folder from a Jekyll folder when I want to update the whole thing.&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a basic post in the _posts directory. I set up this Jekyll blog more or less following the instructions at the Jekyll docs and Jekyll Boostrap, but am keeping it in a separate folder on my file system and manually pushing the _site directory into my website. I use jekyll serve to preview posts before moving them.</summary></entry></feed>
