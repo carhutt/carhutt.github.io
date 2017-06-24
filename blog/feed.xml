@@ -1,5 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2017-06-17T08:04:39-05:00</updated><id>http://localhost:4000/blog/</id><title type="html">Andrew’s Blog</title><subtitle>A collection of writings.
-</subtitle><entry><title type="html">A Footnote To The Previous Post</title><link href="http://localhost:4000/blog/footnote-to-neuralink.html" rel="alternate" type="text/html" title="A Footnote To The Previous Post" /><published>2017-06-17T05:00:00-05:00</published><updated>2017-06-17T05:00:00-05:00</updated><id>http://localhost:4000/blog/footnote-to-neuralink</id><content type="html" xml:base="http://localhost:4000/blog/footnote-to-neuralink.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2017-06-24T10:46:11-05:00</updated><id>http://localhost:4000/blog/</id><title type="html">Andrew’s Blog</title><subtitle>A collection of writings.
+</subtitle><entry><title type="html">Unreasonably Effective, or Reasonably Uneffective?</title><link href="http://localhost:4000/blog/reasonably-uneffective.html" rel="alternate" type="text/html" title="Unreasonably Effective, or Reasonably Uneffective?" /><published>2017-06-24T03:00:00-05:00</published><updated>2017-06-24T03:00:00-05:00</updated><id>http://localhost:4000/blog/reasonably-uneffective</id><content type="html" xml:base="http://localhost:4000/blog/reasonably-uneffective.html">&lt;p&gt;I’ve been reading and re-reading some articles about machine learning and natural language processing (also called NLP).  I’m no machine learning expert—I’ve spun up an instance of TensorFlow once and didn’t really know what I was doing with it—but I am interested in how computers deals with language and why it’s so weird, so I’m just going to write some of my thoughts and observations here.&lt;/p&gt;
+
+&lt;p&gt;First, here are some of the articles I’ve been looking at, two of which inspired the title of this post:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hackernoon.com/the-unreasonable-ineffectiveness-of-deep-learning-in-nlu-e4b4ce3a0da0&quot;&gt;The Unreasonable Ineffectiveness of Deep Learning in NLU&lt;/a&gt;, from June 2017&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://karpathy.github.io/2015/05/21/rnn-effectiveness/&quot;&gt;The Unreasonable Effectiveness of Recurrent Neural Networks&lt;/a&gt;, from May 2015&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.evolvingai.org/fooling&quot;&gt;Deep neural networks are easily fooled: High confidence predictions for unrecognizable images&lt;/a&gt;, from 2015&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;karpathy-unreasonable-effectiveness&quot;&gt;Karpathy: Unreasonable Effectiveness&lt;/h2&gt;
+
+&lt;p&gt;Andrej Karpathy’s 2015 article, “The Unreasonable Effectiveness of Recurrent Neural Networks”, is apparently sort of a classic, I guess because it was one the first accessible, readable (but also fairly technical) summaries of what’s actually going on when a recurrent neural network generates language.  To simplify Karpathy’s explanation: the neural networks that produce such Shakespearian catastrophes as&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;They would be ruled after this chamber, and
+my fair nues begun out of the fact, to be conveyed,
+Whose noble souls I’ll have the heart of the wars.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;are basically giant complex statistical models that take as input a huge amount of text, look at the character-to-character sequences in the huge amount of text, do some fancy math, and spit out things that are statistically similar to the input according to a model that was produced during the “fancy math” stage.  Of course, it’s all gibberish, but mostly well-structured gibberish.&lt;/p&gt;
+
+&lt;p&gt;Obviously the output of these models is a bit goofy, but Karpathy is well aware of that and also provides a nice summary of the practical things that RNNs could do with language in 2015, like translation, speech-to-text, and image captioning.  As far as I can tell, what he means by “unreasonable effectiveness” is something along the lines of, “isn’t it cool that this RNN using a character-level model can produce sentences that are semi-coherent?”  I would add that the lines in the Shakespeare examples are surprisingly often in regular iambic pentameter, and that there is something surprising about how the RNN seems to have picked up some kind of idea of grammar.  One of Noam Chomsky’s examples for why a “universal grammar” might exist is that the sentence “colorless green ideas sleep furiously” is perfectly &lt;em&gt;grammatical&lt;/em&gt; even though it is meaningless.  It feels like there’s something going on here where somebody who knows more than me could draw an interesting connection between machine learning language models and Chomsky.&lt;/p&gt;
+
+&lt;p&gt;Speaking of Chomsky, he recently did this interesting &lt;a href=&quot;https://www.inverse.com/article/32375-noam-chomsky-facebook-neuralink-elon-musk&quot;&gt;interview&lt;/a&gt; about Elon Musk’s Neuralink project, which I also &lt;a href=&quot;http://agchildress.com/blog/on-neuralink.html&quot;&gt;wrote about&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;(Also, one last note on Karpathy: he regularly uses the language of “knowing”, “understanding”, and “deciding” to talk about things that are essentially statistical processes.  This is troubling because it suggests that our knowing, understanding, and deciding are “really just” statistical processes.  Does he realize he’s suggesting this?)&lt;/p&gt;
+
+&lt;h2 id=&quot;deb-roy-unreasonable-ineffectiveness&quot;&gt;Deb Roy: Unreasonable Ineffectiveness&lt;/h2&gt;
+
+&lt;p&gt;Suman Deb Roy’s recent article, “The Unreasonable Ineffectiveness of Deep Learning in NLU”, argues that deep learning (which is a thing you can do with RNNs, if I understand correctly) is actually quite bad at natural language understanding (NLU), despite over-hyped claims to the contrary.  Deb Roy shows that “old fashioned” natural language processing (NLP) techniques (like n-gram and bag of words models) are generally better than or at least as good as deep learning techniques when it comes to tasks like assigning a topic to a given sentence.&lt;/p&gt;
+
+&lt;p&gt;Deb Roy seems to be saying that just when we thought that machine learning models were unreasonably effective, it turns out that there’s a highly specific set of natural language problems at which they are unreasonably &lt;em&gt;not&lt;/em&gt; effective.&lt;/p&gt;
+
+&lt;p&gt;There’s a section in the article titled “Why is this Unreasonable?”, where Deb Roy admits that we expected more from new convolutional neural net models, since they are really pretty good at things like classifying images and video.  We expected better performance for topic classifiers, and haven’t found it.  He concludes,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Why this gap in performance between image/video/audio vs. language data?  Perhaps it has to do with the patterns of biological signal processing required to “perceive” the former while the patterns of cultural context required to “comprehend” the latter? In any case, there is still much we have to learn about the intricacies of learning itself, especially with different forms of multimedia.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And I appreciate this honesty.  Language is hard, and modelling it statistically doesn’t seem to get us where we want to go.
+“
+There’s an &lt;a href=&quot;https://homepages.inf.ed.ac.uk/ballison/pdf/lrec_skipgrams.pdf&quot;&gt;NLP paper from 2006&lt;/a&gt; that includes the phrase, “language is a system of rare events, so varied and complex, that we can never model all possibilities”.  If I suppress my copy-editor instincts and ignore the misplaced comma, I see this as a truly insightful observation about why language is a “hard problem”, as they say.  &lt;strong&gt;Language is an infinite space, and the ability to create and discern meaning within that infinite space is something we’ve barely begun to understand.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I don’t really understand whether there’s a conflict between these two articles by Karpathy and Deb Roy.  I don’t think there is.  I think Deb Roy is giving a fair account of the current state of technology in 2017 while, in contrast, Karpathy’s article is the AI-researcher equivalent of a frat boy building a riding lawn mower that can go 60 miles per hour—impressive, even if it’s not particularly inspiring.  If I can come to any conclusion from my reading, it’s that neural networks applied to language for any task requiring semantic comprehension (beyond something like speech-to-text) are just a fun toy, with no real use.  I know that there are a lot of big-dollar startups right now based on the idea that no, neural networks are the future of automated language which is the future of commerce, but I reserve the right to be cynical and cranky about them.&lt;/p&gt;
+
+&lt;h2 id=&quot;deep-neural-networks-are-easily-fooled&quot;&gt;Deep neural networks are easily fooled&lt;/h2&gt;
+
+&lt;p&gt;This is just a paper from 2015 that shows humans can easily trick image-recognition models into thinking that images of static or abstract patterns are actually things like armadillos and assault rifles.  Here’s an example.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://agchildress.com/images/lies.png&quot; alt=&quot;lies&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m just including this as a reminder that computer models intended to do human tasks can often be fragile and dumb.  Lying to computers is incredibly easy, so I guess it’s a good thing that we don’t really think of it as lying?&lt;/p&gt;
+
+&lt;h2 id=&quot;just-a-thing-from-twitter&quot;&gt;Just a thing from Twitter&lt;/h2&gt;
+
+&lt;p&gt;One of my favorite Twitter accounts is &lt;a href=&quot;https://twitter.com/computerfact?lang=en&quot;&gt;@computerfact&lt;/a&gt;.  This is from that account:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://agchildress.com/images/computerfact.jpg&quot; alt=&quot;drake&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">I’ve been reading and re-reading some articles about machine learning and natural language processing (also called NLP). I’m no machine learning expert—I’ve spun up an instance of TensorFlow once and didn’t really know what I was doing with it—but I am interested in how computers deals with language and why it’s so weird, so I’m just going to write some of my thoughts and observations here.</summary></entry><entry><title type="html">A Footnote To The Previous Post</title><link href="http://localhost:4000/blog/footnote-to-neuralink.html" rel="alternate" type="text/html" title="A Footnote To The Previous Post" /><published>2017-06-17T05:00:00-05:00</published><updated>2017-06-17T05:00:00-05:00</updated><id>http://localhost:4000/blog/footnote-to-neuralink</id><content type="html" xml:base="http://localhost:4000/blog/footnote-to-neuralink.html">&lt;blockquote&gt;
   &lt;p&gt;Pay attention to these stories. Pay attention to these storytellers. But pay critical attention. Pay attention critically. Ask better questions about why they’re inventing these histories and predicting these futures.&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -188,4 +246,6 @@
   &lt;li&gt;I like figuring out how to make it work.  Yeah, I could just spin up a WordPress or Squarespace site, but I’m more motivated to work on my website when I get to write all the code and understand how everything works.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;In the future I would like to simplify some of the crazy things I’m doing to integrate it.  Right now I have a &lt;code class=&quot;highlighter-rouge&quot;&gt;/blog&lt;/code&gt; folder set up in my GitHub repo and I just manually copy over all the posts and the &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; file into that folder from a Jekyll folder when I want to update the whole thing.&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a basic post in the _posts directory. I set up this Jekyll blog more or less following the instructions at the Jekyll docs and Jekyll Boostrap, but am keeping it in a separate folder on my file system and manually pushing the _site directory into my website. I use jekyll serve to preview posts before moving them.</summary></entry></feed>
+&lt;p&gt;In the future I would like to simplify some of the crazy things I’m doing to integrate it.  Right now I have a &lt;code class=&quot;highlighter-rouge&quot;&gt;/blog&lt;/code&gt; folder set up in my GitHub repo and I just manually copy over all the posts and the &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; file into that folder from a Jekyll folder when I want to update the whole thing.&lt;/p&gt;
+
+&lt;p&gt;Also, there are no comments on this blog, mostly because it’s complicated enough to set up comments on a static site without using a sketchy third-party thing like Disqus, and my janky setup just makes it more complicated.  If you want to comment, email me, and I can always update a post with corrections or notes.&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a basic post in the _posts directory. I set up this Jekyll blog more or less following the instructions at the Jekyll docs and Jekyll Boostrap, but am keeping it in a separate folder on my file system and manually pushing the _site directory into my website. I use jekyll serve to preview posts before moving them.</summary></entry></feed>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Unreasonably Effective, or Reasonably Uneffective?</title>
+  <meta name="description" content="I’ve been reading and re-reading some articles about machine learning and natural language processing (also called NLP). I’m no machine learning expert—I’ve ...">
+
+  <link rel="stylesheet" href="/blog/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/blog/reasonably-uneffective.html">
+  <link rel="alternate" type="application/rss+xml" title="Andrew&#39;s Blog" href="/blog/feed.xml">
+  
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+    
+    
+    <a class="site-title" href="/blog/">Andrew&#39;s Blog</a>
+  
+    
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+          
+            
+            
+            <a class="page-link" href="/blog/about/">About</a>
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+        </div>
+      </nav>
+    
+  </div>
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Unreasonably Effective, or Reasonably Uneffective?</h1>
+    <p class="post-meta">
+      <time datetime="2017-06-24T03:00:00-05:00" itemprop="datePublished">
+        
+        Jun 24, 2017
+      </time>
+      </p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>I’ve been reading and re-reading some articles about machine learning and natural language processing (also called NLP).  I’m no machine learning expert—I’ve spun up an instance of TensorFlow once and didn’t really know what I was doing with it—but I am interested in how computers deals with language and why it’s so weird, so I’m just going to write some of my thoughts and observations here.</p>
+
+<p>First, here are some of the articles I’ve been looking at, two of which inspired the title of this post:</p>
+
+<ul>
+  <li><a href="https://hackernoon.com/the-unreasonable-ineffectiveness-of-deep-learning-in-nlu-e4b4ce3a0da0">The Unreasonable Ineffectiveness of Deep Learning in NLU</a>, from June 2017</li>
+  <li><a href="http://karpathy.github.io/2015/05/21/rnn-effectiveness/">The Unreasonable Effectiveness of Recurrent Neural Networks</a>, from May 2015</li>
+  <li><a href="http://www.evolvingai.org/fooling">Deep neural networks are easily fooled: High confidence predictions for unrecognizable images</a>, from 2015</li>
+</ul>
+
+<h2 id="karpathy-unreasonable-effectiveness">Karpathy: Unreasonable Effectiveness</h2>
+
+<p>Andrej Karpathy’s 2015 article, “The Unreasonable Effectiveness of Recurrent Neural Networks”, is apparently sort of a classic, I guess because it was one the first accessible, readable (but also fairly technical) summaries of what’s actually going on when a recurrent neural network generates language.  To simplify Karpathy’s explanation: the neural networks that produce such Shakespearian catastrophes as</p>
+
+<blockquote>
+  <p>They would be ruled after this chamber, and
+my fair nues begun out of the fact, to be conveyed,
+Whose noble souls I’ll have the heart of the wars.</p>
+</blockquote>
+
+<p>are basically giant complex statistical models that take as input a huge amount of text, look at the character-to-character sequences in the huge amount of text, do some fancy math, and spit out things that are statistically similar to the input according to a model that was produced during the “fancy math” stage.  Of course, it’s all gibberish, but mostly well-structured gibberish.</p>
+
+<p>Obviously the output of these models is a bit goofy, but Karpathy is well aware of that and also provides a nice summary of the practical things that RNNs could do with language in 2015, like translation, speech-to-text, and image captioning.  As far as I can tell, what he means by “unreasonable effectiveness” is something along the lines of, “isn’t it cool that this RNN using a character-level model can produce sentences that are semi-coherent?”  I would add that the lines in the Shakespeare examples are surprisingly often in regular iambic pentameter, and that there is something surprising about how the RNN seems to have picked up some kind of idea of grammar.  One of Noam Chomsky’s examples for why a “universal grammar” might exist is that the sentence “colorless green ideas sleep furiously” is perfectly <em>grammatical</em> even though it is meaningless.  It feels like there’s something going on here where somebody who knows more than me could draw an interesting connection between machine learning language models and Chomsky.</p>
+
+<p>Speaking of Chomsky, he recently did this interesting <a href="https://www.inverse.com/article/32375-noam-chomsky-facebook-neuralink-elon-musk">interview</a> about Elon Musk’s Neuralink project, which I also <a href="http://agchildress.com/blog/on-neuralink.html">wrote about</a>.</p>
+
+<p>(Also, one last note on Karpathy: he regularly uses the language of “knowing”, “understanding”, and “deciding” to talk about things that are essentially statistical processes.  This is troubling because it suggests that our knowing, understanding, and deciding are “really just” statistical processes.  Does he realize he’s suggesting this?)</p>
+
+<h2 id="deb-roy-unreasonable-ineffectiveness">Deb Roy: Unreasonable Ineffectiveness</h2>
+
+<p>Suman Deb Roy’s recent article, “The Unreasonable Ineffectiveness of Deep Learning in NLU”, argues that deep learning (which is a thing you can do with RNNs, if I understand correctly) is actually quite bad at natural language understanding (NLU), despite over-hyped claims to the contrary.  Deb Roy shows that “old fashioned” natural language processing (NLP) techniques (like n-gram and bag of words models) are generally better than or at least as good as deep learning techniques when it comes to tasks like assigning a topic to a given sentence.</p>
+
+<p>Deb Roy seems to be saying that just when we thought that machine learning models were unreasonably effective, it turns out that there’s a highly specific set of natural language problems at which they are unreasonably <em>not</em> effective.</p>
+
+<p>There’s a section in the article titled “Why is this Unreasonable?”, where Deb Roy admits that we expected more from new convolutional neural net models, since they are really pretty good at things like classifying images and video.  We expected better performance for topic classifiers, and haven’t found it.  He concludes,</p>
+
+<blockquote>
+  <p>Why this gap in performance between image/video/audio vs. language data?  Perhaps it has to do with the patterns of biological signal processing required to “perceive” the former while the patterns of cultural context required to “comprehend” the latter? In any case, there is still much we have to learn about the intricacies of learning itself, especially with different forms of multimedia.</p>
+</blockquote>
+
+<p>And I appreciate this honesty.  Language is hard, and modelling it statistically doesn’t seem to get us where we want to go.
+“
+There’s an <a href="https://homepages.inf.ed.ac.uk/ballison/pdf/lrec_skipgrams.pdf">NLP paper from 2006</a> that includes the phrase, “language is a system of rare events, so varied and complex, that we can never model all possibilities”.  If I suppress my copy-editor instincts and ignore the misplaced comma, I see this as a truly insightful observation about why language is a “hard problem”, as they say.  <strong>Language is an infinite space, and the ability to create and discern meaning within that infinite space is something we’ve barely begun to understand.</strong></p>
+
+<p>I don’t really understand whether there’s a conflict between these two articles by Karpathy and Deb Roy.  I don’t think there is.  I think Deb Roy is giving a fair account of the current state of technology in 2017 while, in contrast, Karpathy’s article is the AI-researcher equivalent of a frat boy building a riding lawn mower that can go 60 miles per hour—impressive, even if it’s not particularly inspiring.  If I can come to any conclusion from my reading, it’s that neural networks applied to language for any task requiring semantic comprehension (beyond something like speech-to-text) are just a fun toy, with no real use.  I know that there are a lot of big-dollar startups right now based on the idea that no, neural networks are the future of automated language which is the future of commerce, but I reserve the right to be cynical and cranky about them.</p>
+
+<h2 id="deep-neural-networks-are-easily-fooled">Deep neural networks are easily fooled</h2>
+
+<p>This is just a paper from 2015 that shows humans can easily trick image-recognition models into thinking that images of static or abstract patterns are actually things like armadillos and assault rifles.  Here’s an example.</p>
+
+<p><img src="http://agchildress.com/images/lies.png" alt="lies" /></p>
+
+<p>I’m just including this as a reminder that computer models intended to do human tasks can often be fragile and dumb.  Lying to computers is incredibly easy, so I guess it’s a good thing that we don’t really think of it as lying?</p>
+
+<h2 id="just-a-thing-from-twitter">Just a thing from Twitter</h2>
+
+<p>One of my favorite Twitter accounts is <a href="https://twitter.com/computerfact?lang=en">@computerfact</a>.  This is from that account:</p>
+
+<p><img src="http://agchildress.com/images/computerfact.jpg" alt="drake" /></p>
+
+
+  </div>
+
+  
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Andrew&#39;s Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            
+              Andrew&#39;s Blog
+            
+            </li>
+            
+            <li><a href="mailto:childressandrew@gmail.com">childressandrew@gmail.com</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>A collection of writings.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
