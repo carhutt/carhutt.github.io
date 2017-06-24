@@ -97,7 +97,7 @@ my fair nues begun out of the fact, to be conveyed, <br />
 Whose noble souls I’ll have the heart of the wars.</p>
 </blockquote>
 
-<p>are basically giant complex statistical models that take as input a huge amount of text, look at the character-to-character sequences in the huge amount of text, do some fancy math, and spit out things that are statistically similar to the input according to a model that was produced during the “fancy math” stage.  Of course, it’s all gibberish, but it’s mostly well-structured gibberish.</p>
+<p>are basically giant complex statistical programs that take as input a huge amount of text, look at the character-to-character sequences in the huge amount of text, do some fancy math, and spit out things that are statistically similar to the input according to a model that was produced during the “fancy math” stage.  Of course, it’s all gibberish, but it’s mostly well-structured gibberish.</p>
 
 <p>Obviously the output of these models is a bit goofy, but Karpathy is well aware of that and also provides a nice summary of the practical things that RNNs could do with language in 2015, like translation, speech-to-text, and image captioning.  As far as I can tell, what he means by “unreasonable effectiveness” is something along the lines of, “isn’t it cool that this RNN using a character-level model can produce sentences that are semi-coherent?”  I would add that the lines in the Shakespeare examples are surprisingly often in regular iambic pentameter, and that there is something surprising about how the RNN seems to have picked up some kind of idea of grammar.  One of Noam Chomsky’s examples for why a “universal grammar” might exist is that the sentence “colorless green ideas sleep furiously” is perfectly <em>grammatical</em> even though it is meaningless.  It feels like there’s something going on here where somebody who knows more than me could draw an interesting connection between machine learning language models and Chomsky.</p>
 
@@ -109,7 +109,7 @@ Whose noble souls I’ll have the heart of the wars.</p>
 
 <p>Suman Deb Roy’s recent article, “The Unreasonable Ineffectiveness of Deep Learning in NLU”, argues that deep learning (which is a thing you can do with RNNs, if I understand correctly) is actually quite bad at natural language understanding (NLU), despite over-hyped claims to the contrary.  Deb Roy shows that “old fashioned” natural language processing (NLP) techniques (like n-gram and bag of words models) are generally better than or at least as good as deep learning techniques when it comes to tasks like assigning a topic to a given sentence.</p>
 
-<p>Deb Roy seems to be saying that just when we thought that machine learning models were unreasonably effective, it turns out that there’s a highly specific set of natural language problems at which they are unreasonably <em>not</em> effective.</p>
+<p>Deb Roy seems to be saying that just when we thought that machine learning models were unreasonably effective, it turns out that there’s a specific set of natural language problems at which they are unreasonably <em>not</em> effective.</p>
 
 <p>There’s a section in the article titled “Why is this Unreasonable?”, where Deb Roy admits that we expected more from new convolutional neural net models, since they are really pretty good at things like classifying images and video.  We expected better performance for topic classifiers, and haven’t found it.  He concludes,</p>
 
@@ -127,11 +127,11 @@ Whose noble souls I’ll have the heart of the wars.</p>
 
 <h2 id="deep-neural-networks-are-easily-fooled">Deep neural networks are easily fooled</h2>
 
-<p>The final link in my list at the beginning of this post is just a paper from 2015 that shows humans can easily trick image-recognition models into thinking that images of static or abstract patterns are actually things like armadillos and assault rifles.  Here’s an example, with the computer’s label below each doctored image.</p>
+<p>The final link in my list at the beginning of this post is just a paper from 2015 that shows humans can easily trick image-recognition models into thinking that images of static or abstract patterns are actually things like armadillos and assault rifles.  Here’s an example, with the computer-generated label below each doctored image.</p>
 
 <p><img src="http://agchildress.com/images/lies.png" alt="lies" /></p>
 
-<p>I’m just including this as a reminder that computer models intended to do human tasks can often be fragile and dumb.  Lying to computers is incredibly easy, so I guess it’s a good thing that we don’t really think of it as lying?</p>
+<p>I’m just including this as a reminder that computer models intended to do human tasks can often be fragile and dumb.  Fooling computers is incredibly easy, so I guess it’s a good thing that we don’t really think of it as lying?</p>
 
 <h2 id="just-a-thing-from-twitter">Just a thing from Twitter</h2>
 
