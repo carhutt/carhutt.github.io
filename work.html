@@ -11,8 +11,6 @@
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
 </head>
 
-
-
 <body>
 
 <header>
@@ -41,7 +39,8 @@
 </ul>
 </div>
 
-<hr id = "Indeed">
+<div id = "Indeed">
+<hr>
 <img src="images/indeed.jpg" class="centered"> 
 <br>
 <div>
@@ -54,7 +53,8 @@
     <p>Indeed helps people find jobs.  In our website's <a href = "https://www.indeed.com/about">own words</a>, "Indeed helps companies of all sizes hire the best talent and offers the best opportunity for job seekers to get hired."</p>
   </div>
 
-<hr id = "EADA">
+<div id = "EADA">
+<hr>
 <img src="images/gdes.png" class="centered"> 
 <br>
 <div>
@@ -72,7 +72,8 @@
     <p>My work on the EADA was my capstone project at the UT Austin iSchool.  I developed workflows to generate geodata, ingest collections, create and manage derivative images, and format data for ViewShare.</p>
   </div>
 
-<hr id = "TEL">
+<div id = "TEL">
+<hr>
 <img src="images/TEL.png" class="centered"> 
 <br>
 <div>
@@ -83,7 +84,6 @@
   <a href="files/TEL_writing.pdf">Presentation Screenshot</a>-->
 </h4>
 </div>
-
 <p>I wore several hats at Tokyo Electron (TEL), including content creator, designer, instructor, SharePoint fixer, and user group leader.
 </p>
   <div>
@@ -94,7 +94,8 @@
     <p>I gathered requirements for new solutions as needed, and I explaiedn technical details (and limitations) to our users.  I also co-led a weekly user group where we (a) equipped users to build their own solutions and (b) promoted usabilty and design best practices at TEL.
   </div>
 
-<hr id = "DPLA">
+<div id = "DPLA">
+<hr>
 <img src="images/DPLA_icon.png" class="centered"> 
 <br>
 <div>
@@ -152,7 +153,8 @@
     <p></p>
   </div>
 -->
-<hr id = "openchoice">
+<div id = "openchoice">
+<hr>
 <img src="images/OpenChoice.png" class="centered"> 
 <br>
 <div>
@@ -173,7 +175,8 @@
     </p>
   </div>
 
-<hr id = "scraping">
+<div id = "scraping">
+<hr>
 <img src="images/terminal.png" class="centered"> 
 <br>
 <div>
@@ -189,7 +192,6 @@
     <button class="accordion">+ Details</button>
     <div class="panel">
     <p>I used Bash and Ruby to extract all the text from the body of a list of webpages, then used another script to distribute the text into the first column of an HTML table for manual analysis.  This project made us 20% more efficient at processing text.</p>
-    <p>You can see the scripts on <a href="https://github.com/carhutt/body_scraper">Github</a>.</p>
   </div>
 <!--
 <hr id = "SDG14">
@@ -223,6 +225,7 @@
     <p>This website was built by Andrew Childress.</p>
 </footer>
 </div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="crossorigin="anonymous"></script> 
 
 <script>
 var acc = document.getElementsByClassName("accordion");
@@ -238,6 +241,16 @@ for (i = 0; i < acc.length; i++) {
         }
     }
 }
+$(document).ready(function () {
+        var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+        if (window.location.hash && isChrome) {
+            setTimeout(function () {
+                var hash = window.location.hash;
+                window.location.hash = "";
+                window.location.hash = hash;
+            }, 300);
+        }
+    });
 </script>
 </body>
 </html>
